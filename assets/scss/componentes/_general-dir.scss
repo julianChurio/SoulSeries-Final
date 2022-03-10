@@ -1,0 +1,93 @@
+@import "variables";
+@import "colores";
+
+/***************
+cosas generales
+***************/
+
+.backgroundImageCustom {
+    background-image: url("https://wallpapercave.com/wp/wp3756449.jpg");
+    height: $fullaltovh;
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+.fondoDS {
+    background-image: linear-gradient(to bottom right, $negro, $negro, $naranjaDS);
+}
+
+article {
+    .card {
+        img {
+            width: $mitadancho;
+            height: $mitadalto;
+            object-fit: cover;
+            object-position: top;
+        }
+    }
+}
+
+.bodyContacto {
+    height: $fullalto;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.bordecito {
+    &:hover {
+        background-color: $blanco !important;
+        color: $negro !important;
+        transition: background-color 500ms linear !important;
+        transition: color 350ms linear;
+    }
+}
+
+.carousel-caption {
+    a {
+        cursor: pointer !important;
+    }
+}
+
+    article {
+        a {
+            color: $link;
+            text-decoration: none;
+
+
+            &:hover {
+                color: $linkhover;
+                text-shadow: #efefef 0 0 15px;
+            }
+        }
+    }
+
+.speedrun {
+    a {
+        cursor: pointer !important;
+    }
+}
+
+.contacto {
+    input {
+        width: 50%;
+        margin: 0 auto;
+    }
+    textarea {
+        width: 50%;
+        margin: 0 auto;
+    }
+}
+
+.mainIndice {
+    background-color: #0f0f0f;
+}
+
+.footerIndice {
+    background-color: #0f0f0f;
+}

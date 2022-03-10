@@ -1,0 +1,26 @@
+/****
+fonts
+****/
+
+@font-face {
+    font-family: 'fontBotones';
+    src: url(/fonts/Lato-Italic.ttf);
+}
+
+@font-face {
+    font-family: 'darkSouls';
+    src: url(/fonts/EBGaramond-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: 'customHeading';
+    src: url(/fonts/Roboto-Regular.ttf);
+}
+
+.fontDS {
+    font-family: 'darkSouls';
+}
+
+.headingCustom {
+    font-family: 'customHeading';
+}

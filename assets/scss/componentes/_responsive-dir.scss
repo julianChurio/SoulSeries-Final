@@ -1,0 +1,52 @@
+@import "variables";
+
+/* -------------------------- */
+/* Un poquito de responsive  */
+/* ------------------------ */
+
+
+/* Tablets */
+
+@media (min-width:$tabletmin) and (max-width: $tabletmax) {
+    article .card img {
+        width: $trescuartos;
+        height: $trescuartos;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .contacto {
+        input {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        textarea {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}
+
+/* Smartphone */
+
+@media (max-width: $smartphonemax) {
+    article .card img {
+        width: $fullancho;
+        height: $fullalto;
+        object-fit: cover;
+        object-position: top;
+    }
+
+    .contacto {
+        input {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        textarea {
+            width: 80%;
+            margin: 0 auto;
+        }
+    }
+}

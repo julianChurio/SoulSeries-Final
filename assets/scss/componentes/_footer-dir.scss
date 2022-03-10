@@ -1,0 +1,32 @@
+@import "./colores";
+
+/*****
+footer
+*****/
+
+.footer {
+    color: $blanco;
+
+    a {
+        text-decoration: none;
+        color: $azulcito !important;
+
+        &:hover {
+            text-decoration: none;
+            color: $azulcitooscuro !important;
+
+            &:last-child {
+                color: $naranjaDS !important;
+            }
+        }
+
+        &:last-child {
+            text-decoration: none;
+            color: $amarillito !important;
+        }
+    }
+}
+
+.footerIndice {
+    background-color: #0f0f0f;
+}

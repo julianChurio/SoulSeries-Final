@@ -1,0 +1,151 @@
+/***************
+cosas generales
+***************/
+.backgroundImageCustom {
+  background-image: url("https://wallpapercave.com/wp/wp3756449.jpg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center; }
+
+h2 {
+  padding-top: 3vh;
+  padding-bottom: 3vh; }
+
+.fondoDS {
+  background-image: linear-gradient(to bottom right, black, black, #D37150); }
+
+article .card img {
+  width: 50%;
+  height: 50%;
+  object-fit: cover;
+  object-position: top; }
+
+.bodyContacto {
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed; }
+
+.bordecito:hover {
+  background-color: white !important;
+  color: black !important;
+  transition: background-color 500ms linear !important;
+  transition: color 350ms linear; }
+
+.carousel-caption a {
+  cursor: pointer !important; }
+
+article a {
+  color: #136bae;
+  text-decoration: none; }
+  article a:hover {
+    color: #29a2ff;
+    text-shadow: #efefef 0 0 15px; }
+
+.speedrun a {
+  cursor: pointer !important; }
+
+.contacto input {
+  width: 50%;
+  margin: 0 auto; }
+
+.contacto textarea {
+  width: 50%;
+  margin: 0 auto; }
+
+.mainIndice {
+  background-color: #0f0f0f; }
+
+.footerIndice {
+  background-color: #0f0f0f; }
+
+/****
+fonts
+****/
+@font-face {
+  font-family: 'fontBotones';
+  src: url(/fonts/Lato-Italic.ttf); }
+
+@font-face {
+  font-family: 'darkSouls';
+  src: url(/fonts/EBGaramond-SemiBold.ttf); }
+
+@font-face {
+  font-family: 'customHeading';
+  src: url(/fonts/Roboto-Regular.ttf); }
+
+.fontDS {
+  font-family: 'darkSouls'; }
+
+.headingCustom {
+  font-family: 'customHeading'; }
+
+/**********
+animaciones
+**********/
+.animacionDS:hover {
+  animation: colorDS 1s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: default; }
+
+@keyframes colorDS {
+  0% {
+    text-shadow: 0 0 0px #F9FCB6, 0 0 0px #F9FCB6; }
+  50% {
+    text-shadow: 0 0 5px #F8D100, 0 0 0px #F8D100; }
+  80% {
+    text-shadow: 0 0 12px #f77700, 0 0 8px #f77700; }
+  100% {
+    text-shadow: 0 0 15px #DB4B23, 0 0 10px #DB4B23; } }
+
+/*****
+footer
+*****/
+.footer {
+  color: white; }
+  .footer a {
+    text-decoration: none;
+    color: #9cf1ea !important; }
+    .footer a:hover {
+      text-decoration: none;
+      color: #7dbae6a4 !important; }
+      .footer a:hover:last-child {
+        color: #D37150 !important; }
+    .footer a:last-child {
+      text-decoration: none;
+      color: #F8D100 !important; }
+
+.footerIndice {
+  background-color: #0f0f0f; }
+
+/* -------------------------- */
+/* Un poquito de responsive  */
+/* ------------------------ */
+/* Tablets */
+@media (min-width: 480px) and (max-width: 1024px) {
+  article .card img {
+    width: 75%;
+    height: 75%;
+    object-fit: cover;
+    object-position: top; }
+  .contacto input {
+    width: 80%;
+    margin: 0 auto; }
+  .contacto textarea {
+    width: 80%;
+    margin: 0 auto; } }
+
+/* Smartphone */
+@media (max-width: 479px) {
+  article .card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top; }
+  .contacto input {
+    width: 80%;
+    margin: 0 auto; }
+  .contacto textarea {
+    width: 80%;
+    margin: 0 auto; } }

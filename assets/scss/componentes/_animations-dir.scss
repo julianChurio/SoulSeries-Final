@@ -1,0 +1,33 @@
+@import "./colores";
+
+
+/**********
+animaciones
+**********/
+
+.animacionDS {
+  &:hover {
+    animation: colorDS 1s linear;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    cursor: default;
+  }
+}
+
+@keyframes colorDS {
+  0% {
+    text-shadow: 0 0 0px $animacionUno, 0 0 0px $animacionUno;
+  }
+
+  50% {
+    text-shadow: 0 0 5px $animacionDos, 0 0 0px $animacionDos;
+  }
+
+  80% {
+    text-shadow: 0 0 12px $animacionTres, 0 0 8px $animacionTres;
+  }
+
+  100% {
+    text-shadow: 0 0 15px $animacionCuatro, 0 0 10px $animacionCuatro;
+  }
+}
