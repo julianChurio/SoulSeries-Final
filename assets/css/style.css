@@ -1,6 +1,9 @@
 /***************
 cosas generales
 ***************/
+html {
+  scroll-behavior: smooth; }
+
 .backgroundImageCustom {
   background-image: url("https://wallpapercave.com/wp/wp3756449.jpg");
   height: 100vh;
@@ -59,6 +62,9 @@ article a {
 .footerIndice {
   background-color: #0f0f0f; }
 
+h1 {
+  font-size: 3rem; }
+
 /****
 fonts
 ****/
@@ -83,7 +89,13 @@ fonts
 /**********
 animaciones
 **********/
-.animacionDS:hover {
+.animacionDS {
+  animation: colorDS 1s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: default; }
+
+.animacionDSHover:hover {
   animation: colorDS 1s linear;
   animation-iteration-count: infinite;
   animation-direction: alternate;

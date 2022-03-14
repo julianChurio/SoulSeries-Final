@@ -5,6 +5,10 @@
 cosas generales
 ***************/
 
+html {
+  scroll-behavior: smooth;
+}
+
 .backgroundImageCustom {
     background-image: url("https://wallpapercave.com/wp/wp3756449.jpg");
     height: $fullaltovh;
@@ -90,4 +94,8 @@ article {
 
 .footerIndice {
     background-color: #0f0f0f;
+}
+
+h1 {
+    font-size: 3rem;
 }

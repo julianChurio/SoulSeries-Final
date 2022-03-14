@@ -6,6 +6,13 @@ animaciones
 **********/
 
 .animacionDS {
+  animation: colorDS 1s linear;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  cursor: default;
+}
+
+.animacionDSHover {
   &:hover {
     animation: colorDS 1s linear;
     animation-iteration-count: infinite;
